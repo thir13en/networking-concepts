@@ -1,2 +1,6 @@
-# networking-concepts
-A collection of Networking related concepts with their explanations
+# Networking Concepts
+
+* A-record
+* CNAME
+* Domain
+* DNS
