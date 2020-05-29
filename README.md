@@ -15,6 +15,9 @@ Software to Virtually manage network infra, such as Open Stack.
 * RAN
 The radio access network (RAN) has been in use since the beginning of cellular technology and has evolved through the generations of mobile communications (1G through 5G).
 
+* NAT
+Network Access Translation
+
 * fronthaul
 * backhaul
 * A-record
