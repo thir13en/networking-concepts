@@ -24,3 +24,6 @@ Network Access Translation
 * CNAME
 * Domain
 * DNS
+
+* SMTP
+Protocol to sent emails over the web
