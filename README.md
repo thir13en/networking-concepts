@@ -18,6 +18,9 @@ The radio access network (RAN) has been in use since the beginning of cellular t
 * NAT
 Network Access Translation
 
+* Hairpinning
+In network computing, hairpinning describes a communication between two hosts behind the same NAT device using their mapped endpoint. Because not all NAT devices support this communication configuration, applications must be aware of it. Hairpinning is where a machine on the LAN is able to access another machine on the LAN via the external IP address of the LAN/router.
+
 * fronthaul
 * backhaul
 * A-record
