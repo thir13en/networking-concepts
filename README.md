@@ -30,3 +30,6 @@ In network computing, hairpinning describes a communication between two hosts be
 
 * SMTP
 Protocol to sent emails over the web
+
+// TODO
+Sockets, SOAP, CORBA, REST o D-Bus
