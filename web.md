@@ -13,3 +13,6 @@
 
 ### Other important blocks
 * `Common Gateway Interface (CGI)`: a program that web servers run to generate content for their clients.
+
+### Websockets
+A Websocket uses a long-running `TCP/IP` connection so transferring data `back and forth` does not include the *setup cost* of a `TCP/IP` connection each time, unlike the case of an `Ajax` Request. 
