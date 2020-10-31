@@ -16,3 +16,5 @@
 
 ### Websockets
 A Websocket uses a long-running `TCP/IP` connection so transferring data `back and forth` does not include the *setup cost* of a `TCP/IP` connection each time, unlike the case of an `Ajax` Request. 
+Also with a `websocket` if you want to send an object over the wire, you only pay the payload cost of the object, and not all the standard `HTTP` headers that the `browser` automatically includes in a normal `Ajax` request. Those headers can actually be many times larger than the data itself (for small payloads).  
+If you just want to send a counter over the wire, you might be transferring a payload hundreds of times larger than what you would expect due to these extra headers.  
